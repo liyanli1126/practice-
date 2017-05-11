@@ -1,0 +1,26 @@
+h1,body{
+	margin: 0;
+	font-family: "microsoft" "arial";
+	color: #fff;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.clearfix:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+input{
+	border: none;
+	outline: none;
+	border-radius: 30px;
+}

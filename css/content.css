@@ -1,0 +1,253 @@
+.icon{
+  font-family: 'icomoon';
+  font-style:normal;
+}
+.content_left{
+  width: 194px;
+  height: 100%;
+  position: absolute;
+  top: 62px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 9;
+}
+.tree_item{
+  width: 100%;
+  height: 38px;
+  line-height: 38px; 
+  position: relative;
+}
+.tree_item a{
+  display: block;
+  position: relative;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 0 0 15px;
+  font-size: 14px;
+  text-decoration: none;
+  zoom: 1;
+  color: #fff;
+}
+.tree_text{
+  font-size: 14px;
+  position: absolute;
+  left: 40px;
+}
+.share_info,.recycle_info{
+  margin: 0;
+  display: block;
+  height: 45px;
+  font-size: 14px;
+  text-decoration: none;
+  zoom: 1;
+  color: #fff;
+  padding: 0 24px;
+}
+.content_main{
+  position: absolute;
+  top: 62px;
+  right: 0;
+  left: 194px;
+  bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  right: 10px;
+  z-index: 1;
+  background: #fff;
+}
+/*content-main*/
+.nav_left{
+  float: left;
+}
+.main_nav{
+  position: relative;
+  z-index: 4;
+  background-color: #FFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 0 3px;
+  overflow: hidden;
+}
+.main_nav .upload,.main_nav .new_file{
+  margin: 0 5px;
+}
+/*上传*/
+.upload{
+  float: left;
+  padding: 0 5px;
+  vertical-align: top;
+}
+.upload_btn{
+  text-decoration: none;
+  color: #3b8cff;
+  border-radius: 4px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  float: left;
+  background: #3b8cff;
+}
+.upload_btn1{
+    background: #fff;
+    border: 1px solid #c0d9fe;
+}
+.upload_icon{
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  right: -1px;
+  float: left;
+}
+.upload_icon1{
+  color: #fff;
+}
+.upload_text{
+  line-height: 32px;
+  font-size: 13px;
+  padding: 0 12px;
+  vertical-align: baseline;
+  float: left;
+  color: #fff;
+}
+.upload_text1{
+  color: #3b8cff;
+}
+.upload_info{
+  text-decoration: none;
+  color: #3b8cff;
+  border: 1px solid #c0d9fe;
+  border-radius: 4px;
+  display: none;
+  margin-top: 32px;
+  text-align: center;
+
+}
+.upload_file,.upload_files{
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  color: ##3b8cff;
+}
+.new_file{
+  text-decoration: none;
+  color: #3b8cff;
+  border: 1px solid #c0d9fe;
+  border-radius: 4px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  float: left;
+}
+.newFile_btn{
+  height: 32px;
+  line-height: 32px;
+  padding-right: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+/*nav-right*/
+.nav_right{
+  float: right;
+}
+.search{
+  position: relative;
+  float: left;
+}
+.search_box{
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  background: #f1f2f4;
+  padding: 0 110px 0 15px;
+  display: inline-block;
+}
+.search_icon{
+  margin-left: 38px;
+}
+.search_icon{
+  position: absolute;
+  right: 14px;
+  top: 9px;
+  color: #666;;
+}
+/*文件设置*/
+.file_set{
+  width: 30px;
+  position: relative;
+  margin: 0 5px 0 10px;
+  float: left;
+}
+.fileSet_box{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #5F6F95;
+  cursor: pointer;
+}
+.fileSet_icon{
+  font-size: 24px;
+  line-height: 30px;
+}
+.fileSet_info{
+  width: 100px;
+  height: auto;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #c0d9fe;
+  margin: 10px 0 0 -71px;
+  display: none;
+}
+.file_name{
+  display: block;
+  padding: 5px 10px;
+  text-align: left;
+  cursor: pointer;  
+  position: relative;
+  text-indent: 23px;
+}
+.text{
+  color: #3B8CFF;
+}
+/**/
+.arrangement_mode{
+  margin: 0 18px 0 10px;
+  float: right;
+}
+.arrangement_box,.arrangement_box1{
+  height: 30px;
+  width: 30px;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  line-height: 32px;
+  color: #5F6F95;
+}
+.main_file{
+  position: relative;
+  overflow: hidden;
+  padding-left: 0;
+}
+.file_head{
+  padding-left: 16px;
+  background-color: #fff;
+  height: 16px;
+  line-height: 16px;
+  margin-top: 15px;
+}
+.all_file{
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+}
+.load_all{
+  font-size: 12px;
+  margin-right: 20px;
+  float: right;
+  line-height: 16px;
+  color: #666;
+}
